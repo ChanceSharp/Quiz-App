@@ -1,6 +1,6 @@
 const STORE = [
     {
-      question: "Who was the first BYU quarterback to throw for 3,000+ yards in a single season?",
+      question: 'Who was the first BYU quarterback to throw for 3,000+ yards in a single season?',
       answers: [
         'Virgil Carter',
         'Gifford Nielsen',
@@ -12,11 +12,11 @@ const STORE = [
       alt: 'referees holding hands up'
     },
     {
-      question: "In 2013, Taysom Hill recorded 4,282 yards of total offense. Prior to Hill, who was the last BYU QB to surpass the 4,000-yard mark in total offense?",
+      question: 'In 2013, Taysom Hill recorded 4,282 yards of total offense. Prior to Hill, who was the last BYU QB to surpass the 4,000-yard mark in total offense?',
       answers: [
         'Ty Detmer',
-        'Max Hall'
-        'Steve Sarkisian'
+        'Max Hall',
+        'Steve Sarkisian',
         'Brandon Doman'
         ],
         correctAnswer: 'Max Hall',
@@ -84,7 +84,7 @@ const STORE = [
       alt: 'referees holding hands up'
     },
     {
-      question: "Which is the only "Power 5" program against which Bronco Mendenhall has multiple wins without a single loss?",
+      question: "Which is the only 'Power 5' program against which Bronco Mendenhall has multiple wins without a single loss?",
       answers: [
         'Georgia Tech',
         'Oklahoma',

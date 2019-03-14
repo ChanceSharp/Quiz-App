@@ -12,111 +12,111 @@ const STORE = [
       alt: 'referees holding hands up'
     },
     {
-      question: "In 2013, Taysom Hill recorded 4,282 yards of total offense. Prior to Hill, who was the last BYU QB to surpass the 4,000-yard mark in total offense?",
+      question: 'What are the 10 essentials for backpacking or camping?',
       answers: [
-        'Ty Detmer',
-        'Max Hall'
-        'Steve Sarkisian'
-        'Brandon Doman'
+        'Entertainment | Food | Tent | Cell Phone | Water Guns | Your pet | Cooler | Cooking utensils | Clothing | Portable sound system',
+        'Cell phone | Junk food | binoculars | sunglasses | pepper spray | ice | Sleeping bag | Camera | Enertainment | Water',
+        'Navigation | Sun protection | Insulation | First-aid supplies | Fire | Repair kit and tools | Nutrition | Hydration | Emergency Shelter',
+        'GPS | Sunglasses | Tent | Hydration | Enertainment | Insulation | Bandages | Cooler | Tools | Books'
         ],
-        correctAnswer: 'Max Hall',
-        icon: 'https://farm8.staticflickr.com/7318/9950191195_135598fef2_b.jpg',
-        alt: 'referees holding hands up'
+        correctAnswer: 'Navigation | Sun protection | Insulation | First-aid supplies | Fire | Repair kit and tools | Nutrition | Hydration | Emergency Shelter',
+        icon: 'https://i.imgur.com/iQ0FBhB.png',
+        alt: 'shield for 10 essentials icon'
     },
     {
-      question: "BYU's lowest career net rushing yardage tally is minus-654 yards, recorded by which BYU quarterback?",
+      question: 'When backpacking what is the weight you should aim for when packing your backpack?',
       answers: [
-        'Gifford Nielsen',
-        'Ty Detmer',
-        'John Walsh',
-        'Kevin Feterik'
+        '25 lbs',
+        '50 lbs',
+        '70 lbs',
+        '100 lbs'
         ],
-        correctAnswer: 'John Walsh',
-        icon: 'https://farm8.staticflickr.com/7318/9950191195_135598fef2_b.jpg',
-        alt: 'referees holding hands up'
+        correctAnswer: '25 lbs',
+        icon: 'https://i.imgur.com/uXukVjk.png',
+        alt: 'weight icon'
     },
     {
-      question: "BYU set its single-game record for total-offense yardage with 777 yards against ___________ in 1983.",
+      question: 'You are camping in bear country. How should you store your food?',
       answers: [
-        'Utah',
-        'Bowling Green',
-        'UTEP',
-        'New Mexico'
+        'Bears are a myth. There\'s no need to worry about them',
+        'Always store your food on you person at all times.',
+        'Store your food in your tent',
+        'Always use a bear canistern or hang your food and personal hygiene items on a tree limb in a bear backpacking'
         ],
-      correctAnswer: 'New Mexico',
-      icon: 'https://farm8.staticflickr.com/7318/9950191195_135598fef2_b.jpg',
-      alt: 'referees holding hands up'
+      correctAnswer: 'Always use a bear canistern or hang your food and personal hygiene items on a tree limb in a bear backpacking',
+      icon: 'https://i.imgur.com/i0Q515j.png',
+      alt: 'bear paw icon'
     },
     {
-      question: "Which BYU quarterback still holds the FBS single-game record for most yards per completion (min. 22 pass attempts)?",
+      question: 'What should you never day hike without?',
       answers: [
-        'Jim McMahon',
-        'Ty Detmer',
-        'John Walsh',
-        'Steve Young'
+        'Extra food',
+        'Hat',
+        'GPS',
+        'Cell phone'
         ],
-      correctAnswer: 'John Walsh',
-      icon: 'https://farm8.staticflickr.com/7318/9950191195_135598fef2_b.jpg',
-      alt: 'referees holding hands up'
+      correctAnswer: 'Extra food',
+      icon: 'https://i.imgur.com/LHRMcBd.png',
+      alt: 'hat icon'
     },
     {
-      question: "BYU has scored 50+ points in 15 games during the Bronco Mendenhall era; the only such game with 60+ points came against _________.",
+      question: 'You forgot your water filter in the backcountry. What should you do?',
       answers: [
-        'Air Force',
-        'Tulane',
-        'UCLA',
-        'UNLV'
+        'Just drink straight from the stream',
+        'Drink your own urine',
+        'Find a water source and boil the water to neutralize it',
+        'Don\'t drink any water'
         ],
-      correctAnswer: 'Air Force',
-      icon: 'https://farm8.staticflickr.com/7318/9950191195_135598fef2_b.jpg',
-      alt: 'referees holding hands up'
+      correctAnswer: 'Find a water source and boil the water to neutralize it',
+      icon: 'https://i.imgur.com/XEwf3tK.png',
+      alt: 'water bottle icon'
     },
     {
-      question: "During the 2013 season's 40-21 win over Texas, in which BYU ran for a school-record 550 yards on 72 carries, how many passes did the Cougars complete?",
+      question: 'What is the safest way to cross a stream while hiking?',
       answers: [
-      '9',
-      '29',
-      '19',
-      '17'
+      'Find flat rocks to hop across on',
+      'Look for the deepest section and cross there',
+      'Avoid acrossing where the current is strong. Look for a straight, wide, and shallow section.',
+      'Always follow the marked route no matter what'
       ],
-      correctAnswer: '9',
-      icon: 'https://farm8.staticflickr.com/7318/9950191195_135598fef2_b.jpg',
-      alt: 'referees holding hands up'
+      correctAnswer: 'Avoid acrossing where the current is strong. Look for a straight, wide, and shallow section.',
+      icon: 'https://i.imgur.com/Kk9t3qL.png',
+      alt: 'stream icon'
     },
     {
-      question: "Which is the only "Power 5" program against which Bronco Mendenhall has multiple wins without a single loss?",
+      question: 'While hiking you get lost. What should you do now?',
       answers: [
-        'Georgia Tech',
-        'Oklahoma',
-        'UCLA',
-        'Oregon State.'
+        'Stay put and wait for someone to find you',
+        'Follow streams or rivers. They will eventually lead to roads',
+        'Take off running in one direction. you will eventually hit a trail.',
+        'Eat all of your food now to get the most energy that you can.'
       ],
-      correctAnswer: 'Georgia Tech',
-      icon: 'https://farm8.staticflickr.com/7318/9950191195_135598fef2_b.jpg',
-      alt: 'referees holding hands up'
+      correctAnswer: 'Stay put and wait for someone to find you',
+      icon: 'https://i.imgur.com/A2cWS88.png',
+      alt: 'compass icon'
     },
     {
-      question: "Who was the last BYU placekicker to make a field goal of 50+ yards?",
+      question: 'You just spotted a black bear while hiking. What should you do now?',
       answers: [
-      'Trevor Samson',
-      'Jared McLaughlin',
-      'Justin Sorenson',
-      'Mitch Payne'
+      'Play dead',
+      'Throw your food at the bear so that it will be distracted',
+      'Approach the bear. It might want to be friends with you!',
+      'If you spot the bear before it spots you, back away keeping your eyes on the bear and wait for it to pass before continuing on.'
       ],
-      correctAnswer: 'Jared McLaughlin',
-      icon: 'https://farm8.staticflickr.com/7318/9950191195_135598fef2_b.jpg',
-      alt: 'referees holding hands up'
+      correctAnswer: 'If you spot the bear before it spots you, back away keeping your eyes on the bear and wait for it to pass before continuing on.',
+      icon: 'https://i.imgur.com/VwFRlXL.png',
+      alt: 'bear head icon'
     },
     {
-      question: "Who was the first BYU player to record multiple seasons with 1,000+ receiving yards?",
+      question: 'What is the most dangerous animal in the wilderness?',
       answers: [
-        'Dennis Pita',
-        'Cody Hoffman',
-        'Austin Collie',
-        'Chris Smith'
+        'Grizzly bears',
+        'Birds',
+        'Insects',
+        'Humanbeings'
     ],
-    correctAnswer: 'Chris Smith',
-    icon: 'https://farm8.staticflickr.com/7318/9950191195_135598fef2_b.jpg',
-    alt: 'referees holding hands up'
+    correctAnswer: 'Humanbeings',
+    icon: 'https://i.imgur.com/YdcTVPW.png',
+    alt: 'skull and crossbones icon'
     }
 ];

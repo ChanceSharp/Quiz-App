@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    font-family: 'Metrophobic', sans-serif;
+    font-family: 'Times New Roman', sans-serif;
     background-color: #ffffff;
     background: url('https://farm5.staticflickr.com/4045/4393575455_8ea670e8e8_o.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -13,7 +13,6 @@ body {
   background-size: cover;
        
 }
-/*header styling*/
 
 header {
     width: 100%;
@@ -22,7 +21,7 @@ header {
     font-size: 20px;
     
 }
-/* Clearfix */
+
 
 header::before,
 header::after {
@@ -60,7 +59,7 @@ header ul {
     text-align: right;
     margin-top: 50px
 }
-/*Quiz start screen styling*/
+
 
 .quizStart {
     display: block;
@@ -94,16 +93,16 @@ main div {
     margin: 0 auto;
 }
 label:nth-child(1) {
-    background-color: #3866AF
+    background-color: blue
 }
 label:nth-child(2) {
-    background-color: #387AAF
+    background-color: blue
 }
 label:nth-child(3) {
-    background-color: #3894AF
+    background-color: blue
 }
 label:nth-child(4) {
-    background-color: #38A9AF
+    background-color: blue
 }
 label {
     padding: 20px;
@@ -116,7 +115,7 @@ label {
     line-height: 22px
 }
 label:hover, label:focus {
-    background-color: #AF6438
+    background-color: black
 }
 fieldset {
     border: none;
@@ -136,7 +135,7 @@ input {
     top: 2px;
 }
 input:checked {
-    border: 8px solid #ebca52;
+    border: 8px solid White;
 }
 input[type=radio] {
     flex: 0 0 auto;
@@ -151,8 +150,8 @@ h2 {
 form button {
     padding: 20px;
     border: none;
-    background-color: #ebca52;
-    color: #363946;
+    background-color: blue;
+    color: white;
     font-size: 18px;
     text-transform: uppercase;
     border-radius: 0;
@@ -163,8 +162,8 @@ form button {
     text-align: left;
 }
 form button:hover, form button:focus {
-    background-color: #363946;
-    color: #ebca52
+    background-color: white;
+    color: blue
 }
 .answer {
     flex: 1 1 auto;
@@ -194,11 +193,9 @@ form button:hover, form button:focus {
     color: #AF6438;
 }
 .correctFeedback img {
-    width: 150px;
+    width: 250px;
     height: auto;
     display: block;
-    border-radius: 50%;
-    background-color: #38A9AF;
     margin: auto;
     padding: 10px;
     margin-bottom: 20px

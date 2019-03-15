@@ -90,13 +90,13 @@ function ifAnswerIsWrong () {
   userAnswerFeedbackWrong();
 }
 
-//user feedback for correct answer
+//correct answer feedback
 function userAnswerFeedbackCorrect () {
   let correctAnswer = `${STORE[questionNumber].correctAnswer}`;
   $('.questionAnswerForm').html(`<div class="correctFeedback"><div class="icon"><img src="${STORE[questionNumber].icon}" alt="${STORE[questionNumber].alt}"/></div><p><b>It's good!</b></p><button type=button class="nextButton">Next</button></div>`);
 }
 
-//user feedback for wrong answer
+//wrong answer feedback
 function userAnswerFeedbackWrong () {
   let correctAnswer = `${STORE[questionNumber].correctAnswer}`;
   // let iconImage = `${STORE[questionNumber].icon}`;
@@ -109,18 +109,18 @@ function updateScore () {
   $('.score').text(score);
 }
 
-//when quiz is over this is the html for the page
+//Restarting the quiz
 function renderResults () {
   if (score >= 8) {
-    $('.questionAnswerForm').html(`<div class="results correctFeedback"><h3>You're on fire!</h3><img src="https://i.imgur.com/OPODnDn.gif" alt="campfire animated icon"/><p>You got ${score} / 10</p><p>Your blood is turning blue!</p><button class="restartButton">Restart Quiz</button></div>`);
+    $('.questionAnswerForm').html(`<div class="results correctFeedback"><h3>You're a true blue blood!</h3><img src="http://www.ldssmile.com/wp-content/uploads/2017/01/1738205.jpg" alt="coach excited"/><p>You got ${score} / 10</p><p>You are an elite BYU fan!</p><button class="restartButton">Restart Quiz</button></div>`);
   } else if (score < 8 && score >= 5) {
-    $('.questionAnswerForm').html(`<div class="results correctFeedback"><h3>Almost there!</h3><img src="https://i.imgur.com/41Jnnxk.gif" alt="raccoona animated icon"/><p>You got ${score} / 10</p><p>Are you really a Utes fan?</p><button class="restartButton">Restart Quiz</button></div>`);
+    $('.questionAnswerForm').html(`<div class="results correctFeedback"><h3>Almost there!</h3><img src="https://www.gannett-cdn.com/media/USATODAY/gameon/2012/09/16/AP_BYU_Utah_Football_001-16_9.jpg?width=580&height=326&fit=crop" alt="player laying on ground"/><p>You got ${score} / 10</p><p>You almost had it...keep trying!</p><button class="restartButton">Restart Quiz</button></div>`);
   } else {
-    $('.questionAnswerForm').html(`<div class="results correctFeedback"><h3>Maybe 'futbol' is more your style</h3><img src="https://i.imgur.com/iGqoVcM.gif" alt="car animcated icon"/><p>You got ${score} / 10</p><p>Your blood is looking pretty red, try again!</p><button class="restartButton">Restart Quiz</button></div>`);
+    $('.questionAnswerForm').html(`<div class="results correctFeedback"><h3>Maybe 'futbol' is more your thing</h3><img src="https://www.sltrib.com/resizer/cKZO5e0IoOcOUKAiVaOqZr-TZTc=/0x600/smart/filters:quality(86)/arc-anglerfish-arc2-prod-sltrib.s3.amazonaws.com/public/ADNDGZSWFNAADNVT6YYTBZL24U.jpg" alt="coach disappointed"/><p>You got ${score} / 10</p><p>IS your blood red??</p><button class="restartButton">Restart Quiz</button></div>`);
   }
 }
 
-//what happens when the user clicks next
+
 function renderNextQuestion () {
   $('main').on('click', '.nextButton', function (event) {
     changeQuestionNumber();
@@ -129,7 +129,7 @@ function renderNextQuestion () {
   });
 }
 
-//restart quiz function - reloads page to start quiz over
+//reloads page
 function restartQuiz () {
   $('main').on('click', '.restartButton', function (event) {
     location.reload();
